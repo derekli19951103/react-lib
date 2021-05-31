@@ -1,0 +1,17 @@
+{
+  "files": ["lib/index.ts"],
+
+  "compilerOptions": {
+    "outDir": "publish",
+    "target": "es5",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "removeComments": true,
+    "declaration": true,
+    "jsx": "react",
+    "lib": ["es2015", "dom"]
+  },
+  "exclude": ["node_modules"]
+}

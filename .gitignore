@@ -12,6 +12,9 @@
 /.next/
 /out/
 
+#lib output
+/publish
+
 # production
 /build
 
@@ -32,3 +35,7 @@ yarn-error.log*
 
 # vercel
 .vercel
+
+# npm
+.npmrc
+

@@ -1,19 +1,39 @@
 {
-  "name": "derek-lib",
-  "version": "0.1.0",
-  "private": true,
+  "name": "@derekli19951103/react-lib",
+  "version": "0.1.5",
+  "private": false,
+  "license": "MIT",
+  "main": "publish/index.js",
+  "types": "publish/index.d.ts",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "build:publish": "rm -rf ./publish && tsc --project tsconfig.publish.json"
   },
   "dependencies": {
-    "next": "10.2.3",
-    "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "antd": "^4.16.1",
+    "lodash": "^4.17.21"
   },
   "devDependencies": {
+    "@types/lodash": "^4.14.170",
     "@types/react": "17.0.8",
-    "typescript": "4.3.2"
+    "@zeit/next-less": "^1.0.1",
+    "axios": "^0.21.1",
+    "less": "^4.1.1",
+    "next": "10.2.3",
+    "prettier": "^2.3.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "swr": "^0.5.6",
+    "typescript": "4.3.2",
+    "webpack": "^4.46.0"
+  },
+  "peerDependencies": {
+    "react": ">=16.9.0",
+    "react-dom": ">=16.9.0"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }

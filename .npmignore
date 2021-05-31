@@ -1,0 +1,14 @@
+node_modules/
+.next/
+components/
+examples/
+pages/
+public/
+services/
+styles/
+yarn.lock
+.prettierrc
+next-env.d.ts
+next.config.js
+tsconfig.json
+tsconfig.publish.json
