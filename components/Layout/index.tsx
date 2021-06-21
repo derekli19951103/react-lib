@@ -12,7 +12,7 @@ export const Layout = (props: { children?: ReactNode }) => {
       <Header>
         <Row justify="space-between" align="middle">
           <Col>
-            <div>TOOLS</div>
+            <div style={{ color: 'white' }}>TOOLS</div>
           </Col>
           <Col></Col>
         </Row>

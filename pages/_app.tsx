@@ -1,6 +1,4 @@
-import '../styles/globals.less'
-// import "antd/dist/antd.less";
-import 'antd/dist/antd.dark.less'
+require('../styles/globals.less')
 import type { AppProps } from 'next/app'
 import React from 'react'
 
