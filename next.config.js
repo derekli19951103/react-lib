@@ -1,7 +1,3 @@
-const withLess = require("@zeit/next-less");
+const withAntdLess = require('next-plugin-antd-less')
 
-module.exports = withLess({
-  lessLoaderOptions: {
-    javascriptEnabled: true,
-  },
-});
+module.exports = withAntdLess({})
